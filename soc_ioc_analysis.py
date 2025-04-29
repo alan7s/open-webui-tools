@@ -11,7 +11,7 @@ from pydantic import Field
 
 class Tools:
     def __init__(self):
-        self.vt_api = "you-virustotal-api"
+        self.vt_api = "your-virustotal-api"
         self.abuseipdb_api = "your-abuseipdb-api"
 
     def analyze_remote_ip(
